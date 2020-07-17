@@ -1,0 +1,69 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Lato', sans-serif; */
+
+
+
+.intro{
+overflow: hidden;
+  height: 100vh;
+  background: rgb(151,51,238);
+background: -moz-linear-gradient(90deg, rgba(151,51,238,1) 0%, rgba(151,51,238,1) 35%, rgba(218,34,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(151,51,238,1) 0%, rgba(151,51,238,1) 35%, rgba(218,34,255,1) 100%);
+background: linear-gradient(90deg, rgba(151,51,238,1) 0%, rgba(151,51,238,1) 35%, rgba(218,34,255,1) 100%);
+}
+.homeText{
+  color: #fff;
+}
+@media screen and (min-width: 601px) {
+   .homeLeft {
+     padding-top: 20vh;
+   }
+ }
+
+ @media screen and (max-width: 600px) {
+   .homeLeft {
+   padding-top: 14vh;
+   }
+ }
+
+.homeHead{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+ }
+ @media screen and (min-width: 601px) {
+   .homeHead {
+     font-size: 50px;
+   }
+ }
+ @media screen and (min-width: 2001px) {
+   .homeHead {
+     font-size: 100px;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .homeHead {
+     font-size: 30px;
+   }
+ }
+
+.homeTail{
+  font-family: 'Karla', sans-serif;
+}
+@media screen and (min-width: 601px) {
+  .homeTail {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .homeTail {
+    font-size: 20px;
+  }
+}
+
+.homeRight{
+text-align: right;
+padding-top: 5vh;
+}
+.homeImg{
+  height: 80vh;
+}
